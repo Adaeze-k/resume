@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Adaeze Kalu - Portfolio Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  </head>
+  <body>
+    <!--Background Circles start-->
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+    <!--Background Circles end-->
+
+    <!--overlay start-->
+    <div class="overlay"></div>
+    <!--overlay end-->
+    <!--main-->
+    <div class="main">
+      <!--Header start-->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">Home</a></li>
+                  <li><a href="#about" class="nav-item link-item">About</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >Portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!--Header end-->
+
+      <!--home section-->
+      <section class="home-section align active" id="home">
+        <div class="container">
+          <div class="row align">
+            <div class="home-text">
+              <p>Hello I'm</p>
+              <h1 class="printname">Adaeze Kalu</h1>
+              <h2>Frontend Web Developer</h2>
+              <a href="#about" class="btn link-item">resume</a>
+              <a href="#portfolio" class="btn link-item">portfolio</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="/img/about.png" alt="profile-image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--home end-->
+
+      <!--about start-->
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>About me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="/img/about.png" alt="about-image" />
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                Insightful and a God-motivated Developer bringing forth valuable
+                tech experiences and a passion for management. Results oriented
+                with a proven track record of leading and working
+                collaboratively with team members to achieve goals. Experienced
+                in both pressure and delivery settings, and adapt at effectively
+                managing all operations. I deal greatly with excellence no
+                matter the pressure and timeframe. I'm probably going to hate
+                this resume in one year. If I don't, chances are, I haven't
+                grown!
+              </p>
+              <h3>Language skills</h3>
+              <div class="skills">
+                <div class="skill-item">html</div>
+                <div class="skill-item">css</div>
+                <div class="skill-item">javascript</div>
+                <div class="skill-item">bootstrap</div>
+                <div class="skill-item">wordpress</div>
+                <div class="skill-item">vue</div>
+                <div class="skill-item">canva</div>
+                <div class="skill-item">scss</div>
+                <div class="skill-item">igbo</div>
+                <div class="skill-item">japanese</div>
+              </div>
+
+              <div class="about-tabs">
+                <button
+                  type="button"
+                  class="tab-item active"
+                  data-target="#education"
+                >
+                  education
+                </button>
+                <button
+                  type="button"
+                  class="tab-item"
+                  data-target="#experience"
+                >
+                  experience
+                </button>
+              </div>
+
+              <!--education start-->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2013 - 2016</span>
+                    <h4>
+                      senior graduate (science department) -
+                      <span>zinaria international school</span>
+                    </h4>
+                    <p>
+                      Leading roles : Leader - Fellowship of Christian Students
+                      and Associates. Head Prefect - Science and Art
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2016 - 2017</span>
+                    <h4>
+                      CI of arts and technology -
+                      <span>learning hub institute</span>
+                    </h4>
+                    <p>
+                      Leading roles : Project Captain - arts and design
+                      maintained all sketches and prototypes
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2017 - 2019</span>
+                    <h4>
+                      graphic design intern -
+                      <span>online course</span>
+                    </h4>
+                    <p>
+                      you're probably wondering what you're going to do with
+                      that...yeah me too.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--education end-->
+
+              <!--experience start-->
+              <div class="tab-content" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2018 - 2019</span>
+                    <h4>web developer intern - <span>Waaw foundation</span></h4>
+                    <p>
+                      In cooperation with SheHacks Africa top ten winners of the
+                      hackathon. project - Igi-iwe leading role - project lead
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2019 - 2019</span>
+                    <h4>Frontend developer intern- <span>Femcode</span></h4>
+                    <p>female code(femcode) leading role - Frontend intern</p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2019 - 2020</span>
+                    <h4>content creator - <span>zion assembly</span></h4>
+                    <p>
+                      Witty Inventions department at the Commonwealth of Zion
+                      Assembly role - content creation and management
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!---experience end-->
+              <a href="cv.pdf" class="btn link-item">download cv</a>
+              <a href="#contact" class="btn link-item">contact me</a>
+
+              <!--internship start-->
+              <div class="internship">
+                <div class="section-title">
+                  <h2 class="text-title">Internships</h2>
+                </div>
+
+                <div class="logos slider">
+                  <div class="slide">
+                    <img src="img/logos/1.png" alt="logo" />
+                  </div>
+                  <div class="slide">
+                    <img src="img/logos/2.png" alt="logo" />
+                  </div>
+                  <div class="slide">
+                    <img src="img/logos/3.png" alt="logo" />
+                  </div>
+                  <div class="slide">
+                    <img src="img/logos/4.png" alt="logo" />
+                  </div>
+                  <div class="slide">
+                    <img src="img/logos/5.png" alt="logo" />
+                  </div>
+                  <div class="slide">
+                    <img src="img/logos/6.png" alt="logo" />
+                  </div>
+                  <div class="slide">
+                    <img src="img/logos/7.png" alt="logo" />
+                  </div>
+                  <div class="slide">
+                    <img src="img/logos/8.png" alt="logo" />
+                  </div>
+                </div>
+              </div>
+              <!--internship start-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--about end-->
+
+      <!--portfolio start-->
+      <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>recent work</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- portfolio item start-->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/1.jpg" alt="portfolio item thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">education course website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Whether you’re five or ninety five, the internet has a lot
+                    to offer. Particularly when the topic is education, the
+                    resources on the internet are endless. From history to
+                    coding, excellent, free online education awaits on this
+                    site. Cause not many are aware that understanding a task is
+                    part of the task.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 Dec 2019</span></li>
+                    <li>
+                      technologies used - <span>Html, Css, Bootstrap 4</span>
+                    </li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View live -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item end-->
+            <!-- portfolio item start-->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/2.jpg" alt="portfolio item thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">portfolio website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    building your personal website—the prime piece of real
+                    estate that you’ll present to the entire internet? That can
+                    be a little intimidating. When it comes to laying your site
+                    out, designing the right color scheme, picking perfect
+                    portfolio pieces, and crafting copy that’ll give your pages
+                    personality, U.K portfolio is present to make it easy.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 Dec 2019</span></li>
+                    <li>technologies used - <span>Bootstrap 5</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View live -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item end-->
+            <!-- portfolio item start-->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/3.jpg" alt="portfolio item thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">App Landing Page</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    The mobile app landing page is specifically made for
+                    promoting your mobile app. It describes your app’s features
+                    and value proposition so that visitors are enticed to click
+                    through, download, and install. Your app’s landing page is a
+                    point-of-entry and starts out the user journey. This is the
+                    first contact between your brand and a potential customer,
+                    it is crystal clear about what problem your app solves. This
+                    may be your only chance to convince visitors to try it. And
+                    first impressions count!
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>14 Feb 2020</span></li>
+                    <li>technologies used - <span>Html, Css</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View live -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item end-->
+            <!-- portfolio item start-->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/4.jpg" alt="portfolio item thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">restaurant website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    The best restaurant websites have one thing in common;
+                    beautiful presentation. An attractive design with excellent
+                    imagery can bring you many customers. Usability is
+                    important. But it’s the mouth-watering visuals that make
+                    these sites great. The visual presentation should not
+                    distract your visitors from getting key information,
+                    however. Your locations, menu items and opening hours should
+                    be easily accessible.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>21 July 2020</span></li>
+                    <li>
+                      technologies used - <span>Html, Css, Javascript</span>
+                    </li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View live -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item end-->
+            <!-- portfolio item start-->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/5.jpg" alt="portfolio item thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">personal portfolio website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    building your personal website—the prime piece of real
+                    estate that you’ll present to the entire internet? That can
+                    be a little intimidating. When it comes to laying your site
+                    out, designing the right color scheme, picking perfect
+                    portfolio pieces, and crafting copy that’ll give your pages
+                    personality, U.K portfolio is present to make it easy.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>29 Sep 2020</span></li>
+                    <li>
+                      technologies used - <span>Html, Css, Javascript</span>
+                    </li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View live -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item end-->
+            <!-- portfolio item start-->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/6.jpg" alt="portfolio item thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">product landing page</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    If you compare how product pages take shape across different
+                    companies, it's clear they run the gamut. Some go for the
+                    direct approach, displaying an image of a product and
+                    explaining why someone should buy it. Other companies create
+                    elaborate pages with moving parts and fancy, interactive
+                    elements. Still, other companies create delightful product
+                    pages that give users an authentic experience as they browse
+                    through what the company has to offer. Believe it or not,
+                    the most captivating product pages don’t always have
+                    enterprise-level programming behind them. To give you an
+                    idea of what's possible — look through our landing page.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 Dec 2020</span></li>
+                    <li>
+                      technologies used - <span>Html, Css, Bootstrap 4</span>
+                    </li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View live -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item end-->
+          </div>
+        </div>
+      </section>
+      <!--portfolio end-->
+
+      <!-- contact start-->
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Contact me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <form>
+                <div class="row">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Name or Slack Name"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Email"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Abeg tag"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <textarea
+                      placeholder="Message"
+                      class="input-control"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <button type="submit" class="btn">send message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p>adaezemcqueen@gmail.com</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Phone</h3>
+                <p>+234 81 46** ****</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Abeg tag</h3>
+                <p>@daizee</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Follow me</h3>
+                <div class="social-links">
+                  <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="#" target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" target="_blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact end-->
+    </div>
+    <!--main end-->
+
+    <!--portfolio detail pop up start-->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="img/portfolio/3.jpg" alt="pp-thumbnail" />
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body"></div>
+        </div>
+      </div>
+    </div>
+    <!--portfolio detail pop up end-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
