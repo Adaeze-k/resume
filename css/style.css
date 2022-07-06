@@ -778,29 +778,29 @@ button {
   padding-top: 15px;
 }
 
-.dropdown{
+.dropdown {
   width: 100%;
   position: relative;
 }
-.dropdown::before{
- content: '';
- position: absolute;
- right: 25px;
- top: 15px;
- z-index: 10000;
- width: 10px;
- height: 10px;
- border-bottom: 2px solid #2e2d2d;
- border-left: 2px solid #2e2d2d;
- transform: rotate(-45deg);
- transition: 0.5s;
- pointer-events: none;
+.dropdown::before {
+  content: "";
+  position: absolute;
+  right: 25px;
+  top: 15px;
+  z-index: 10000;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid #2e2d2d;
+  border-left: 2px solid #2e2d2d;
+  transform: rotate(-45deg);
+  transition: 0.5s;
+  pointer-events: none;
 }
-.dropdown.active::before{
+.dropdown.active::before {
   top: 22px;
   transform: rotate(-225deg);
 }
-.dropdown input{
+.dropdown input {
   cursor: pointer;
   border: none;
   outline: none;
@@ -809,31 +809,30 @@ button {
   margin-bottom: 30px;
 }
 
-.dropdown .option{
- margin: 15px 0 15px 0;
- width: 100%;
- background: #2e2d2d;
- box-shadow: 0 30px 30px rgba(0, 0, 0, 0.05);
- border-radius: 25px;
- overflow: hidden;
- display: none;
+.dropdown .option {
+  margin: 15px 0 15px 0;
+  width: 100%;
+  background: #2e2d2d;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+  overflow: hidden;
+  display: none;
 }
 
-.dropdown.active .option{
+.dropdown.active .option {
   display: block;
 }
-.dropdown .option div{
+.dropdown .option div {
   padding: 12px 20px;
   cursor: pointer;
 }
-.dropdown .option div:hover{
+.dropdown .option div:hover {
   background: #cf9b2a;
   color: #000;
 }
-.dropdown .option div ion-icon{
+.dropdown .option div ion-icon {
   padding-right: 10px;
 }
-
 
 .contact-info-item {
   margin: 0 0 30px;
